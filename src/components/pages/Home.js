@@ -1,5 +1,5 @@
 import React from "react";
-import SliderList from "./Slider.js";
+// import SliderList from "./Slider.js";
 import VisitUs from "./VisitUs";
 import Menu from "./Menu";
 
@@ -11,7 +11,7 @@ import reem1 from "../../assets/images/Reem1.jpeg";
 function Home() {
   return (
     <div className="container">
-      <SliderList />
+      {/* <SliderList /> */}
       <div className="middle-cont">
         <div>
           <div className="box-cont">
