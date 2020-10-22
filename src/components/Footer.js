@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
+    <section className="footer">
       <p>
         <a href="https://www.hackyourfuture.dk/ " target="_blank">
           HackYourFuture{" "}
@@ -14,9 +14,7 @@ function Footer() {
             Finklusiv.dk{" "}
           </a>
         </span>{" "}
-        .<div>
-          
-        </div>
+        .<div></div>
         Designed By developed by{" "}
         <span>
           <a href="https://myshuker.github.io/myPortfolio/#/ " target="_blank">
@@ -32,8 +30,7 @@ function Footer() {
           </a>
         </span>
       </p>
-
-    </div>
+    </section>
   );
 }
 

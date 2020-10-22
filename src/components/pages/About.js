@@ -3,13 +3,17 @@ import reem7 from "../../assets/images/Reem7.jpg";
 
 function About() {
   return (
-    <div className="about">
-      <div>
-        <h1>Om os</h1>
-        <div  className="about-text">
+    <section className="about-container">
+      <h1>Om os</h1>
+      <div className="about-info">
+        <div className="about-text">
           <p>
             ARABI FOOD ligger på Værftets Madmarked, som ligger på Helsingørs
             gamle værft.
+          </p>
+          <p>
+            En stadeplads hvor syrisk tapas laves med stor passion og masser af
+            kærlighed.
           </p>
           <p>
             Reem Mushainesh, ejer af ARABI FOOD Reem kom til Danmark fra Syrien
@@ -22,14 +26,12 @@ function About() {
             I foråret 2020 blev den lånte madvogn skiftet ud med en fast
             stadeplads “Arabi Food” på Madmarkedet i Helsingør.
           </p>
-          <h3>Vi glæder os til at lave mad til dig!</h3>
         </div>
-      </div>
 
-      <div>
         <img src={`${reem7}`} alt="" />
       </div>
-    </div>
+      <h2>Vi glæder os til at lave mad til dig!</h2>
+    </section>
   );
 }
 
