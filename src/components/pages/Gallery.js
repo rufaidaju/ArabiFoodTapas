@@ -25,11 +25,10 @@ import tapas from "../../assets/images/tapas.png";
 
 function Gallery() {
   return (
-    <div className="gallery">
+    <section className="gallery">
       <h2>Gallery</h2>
       <p>
-        totam aliquid quisquam excepturi deleniti enim quasi fuga eius mollitia
-        dolorum earum a aspernatur sint et voluptatum, ipsa voluptatibus!
+        
       </p>{" "}
       <div className="gallery-container">
         <div className="gallery-group ">
@@ -58,7 +57,7 @@ function Gallery() {
           <img src={`${tapas}`} alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

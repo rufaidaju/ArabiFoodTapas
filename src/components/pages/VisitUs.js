@@ -4,31 +4,30 @@ import mobile from "../../assets/icons/mobile-app.png";
 import email from "../../assets/icons/email.png";
 import address from "../../assets/icons/location-pin.png";
 import facebook from "../../assets/icons/facebook-blue.png";
+import time from "../../assets/icons/time.png";
+import cvr from "../../assets/icons/cvr.png";
 
 function VisitUs() {
   return (
-    <div className="visitUs">
+    <section className="visitUs">
       <Map />
-      <h1>Besøg Os</h1>
+
+      <h1>Kontakt os</h1>
+
       <div className="contact-container">
         <div className="cont">
-          <h2>Kontakt</h2>
           <div>
             <div className="contact-info">
-            <img src={`${mobile}`} alt="" />
-
-              <p>81 71 60 64</p>
+              <img src={`${email}`} alt="" />
+              <a href="mailto:reemmsh1223@gmail.com?subject=Inquiry about products">
+                <p>reemmsh1223@gmail.com</p>
+              </a>
             </div>
             <div className="contact-info">
-            <img src={`${email}`} alt="" />
-
-              <p>reemmsh1223@gmail.com</p>
-            </div>
-            <div className="contact-info">
-            <img src={`${address}`} alt="" />
-
-              <p>Værftets Madmarked, Ny Kronborgvej 2, 3000 Helsingør</p>
-
+              <img src={`${address}`} alt="" />
+              <a href="https://g.page/VaerftetsMadmarked?share" target="_blank">
+                <p>Værftets Madmarked, Ny Kronborgvej 2, 3000 Helsingør</p>
+              </a>
             </div>
             <div className="contact-info">
               <img src={`${facebook}`} alt="" />
@@ -38,7 +37,7 @@ function VisitUs() {
                   target="_blank"
                 >
                   {" "}
-                  ArabiFoodTapas{" "}
+                  <p>facebook.com/ArabiFoodTapas </p>{" "}
                 </a>
               </span>
             </div>
@@ -46,16 +45,27 @@ function VisitUs() {
         </div>
 
         <div className="cont">
-          <h2>Åbningstider</h2>
           <div>
-            <p> Monday Tuesday Saturday: 11:00 AM - 8:00 PM </p>
-            <p> Wednesday Thursday: 9:00AM - 5:00 PM </p>
-            <p> Friday: 11:00 AM - 10:00 PM </p>
-            <p> Sunday: 11:00 AM - 6:00 PM </p>
+            <div className="contact-info">
+              <img src={`${mobile}`} alt="" />
+
+              <p>+45 81 71 60 64</p>
+            </div>
+
+            <div className="contact-info">
+              <img src={`${time}`} alt="" />
+
+              <p> 11:00 AM - 8:00 PM </p>
+            </div>
+            <div className="contact-info">
+              <img src={`${cvr}`} alt="" />
+
+              <p> 39447630</p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
