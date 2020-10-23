@@ -1,6 +1,6 @@
 import React from "react";
 import Map from "./Map.js";
-import mobile from "../../assets/icons/mobile-app.png";
+import mobile from "../../assets/icons/phone.png";
 import email from "../../assets/icons/email.png";
 import address from "../../assets/icons/location-pin.png";
 import facebook from "../../assets/icons/facebook-blue.png";
@@ -9,10 +9,10 @@ import cvr from "../../assets/icons/cvr.png";
 
 function VisitUs() {
   return (
-    <section className="visitUs">
+    <section id="contact-us" className="visitUs">
       <Map />
 
-      <h1>Kontakt os</h1>
+      <h1>Contact os</h1>
 
       <div className="contact-container">
         <div className="cont">
