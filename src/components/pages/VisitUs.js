@@ -12,7 +12,7 @@ function VisitUs() {
     <section id="contact-us" className="visitUs">
       <Map />
 
-      <h1>Contact os</h1>
+      <h1>Kontakt os</h1>
 
       <div className="contact-container">
         <div className="cont">
@@ -37,7 +37,7 @@ function VisitUs() {
                   target="_blank" rel="noopener noreferrer"
                 >
                   {" "}
-                  <p>facebook.com/ArabiFoodTapas </p>{" "}
+                  <p>facebook.com/ArabiFoodTapas</p>{" "}
                 </a>
               </span>
             </div>
