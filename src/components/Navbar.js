@@ -15,7 +15,7 @@ function NavigationBar() {
             </Link>
           </li>
           <li>
-            <Link className="navbarItem"  to="/contact">
+            <Link className="navbarItem" to="/contact">
               Kontakt
             </Link>
           </li>
