@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 
 import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
@@ -10,11 +11,12 @@ import Content from "./components/pages/Content";
 import "./App.css";
 import VisitUs from "./components/pages/VisitUs";
 
-function App() {
+function AppRouter() {
   return (
     <div className="App">
 
  <Router>
+  <Navbar />
   <Switch>
     <Route exact path="/" component={Home} />
     <Route path="/content" component={Content} />
@@ -23,10 +25,12 @@ function App() {
     <Route path="/about" component={About} />
     {/* <Route component={ErrorPage} /> */}
   </Switch>
+ 
 </Router>
+<Footer />
     </div>
   );
 }
 
-export default App;
+export default AppRouter;
 
