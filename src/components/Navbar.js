@@ -10,14 +10,24 @@ function NavigationBar() {
 
         <ul>
           <li>
-            <Link className="navbarItem" to="/">
+            <a href="#forside"> 
               Forside
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className="navbarItem" z to="/contact">
+            <a href="#content"> 
+              Content
+            </a>
+          </li>
+          <li>
+            <a href="#visit-us"> 
+              Visit Us
+            </a>
+          </li>
+          <li>
+            <a href="#contact-us"> 
               Kontakt
-            </Link>
+            </a>
           </li>
           <li>
             <Link className="navbarItem" to="/gallery">
