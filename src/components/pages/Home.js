@@ -1,13 +1,13 @@
 import React from "react"
 
-// import MainPage from "./MainPage"
+import MainPage from "./MainPage"
 import Content from "./Content"
 import VisitUs from "./VisitUs"
 
 function Home() {
   return (
     <div id="forside">
-    {/* <MainPage /> */}
+    <MainPage />
     <Content />
     <VisitUs />
     </div>
