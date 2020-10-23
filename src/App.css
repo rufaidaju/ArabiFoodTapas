@@ -238,15 +238,17 @@
   align-items: center;
 }
 
-.visitUs h1 {
+.visitUs h2 {
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 40px;
+  /* padding: 1.3em;; */
 }
 
 .contact-container {
   display: flex;
   width: 90vw;
   margin: 30px auto;
+  justify-content: space-between;
 }
 
 .contact-info {
@@ -260,7 +262,7 @@
 }
 
 .cont {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -269,13 +271,17 @@
 }
 
 .cont p {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 10px;
 }
 
 a {
   text-decoration: none;
   color: #000;
+}
+.resturant-img img{
+  width: 340px;
+  border-radius: 50%;
 }
 
 /* -Gallery */
