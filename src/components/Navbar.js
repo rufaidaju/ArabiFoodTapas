@@ -10,24 +10,14 @@ function NavigationBar() {
 
         <ul>
           <li>
-            <a href="#forside"> 
+            <Link className="navbarItem" to="/">
               Forside
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#content"> 
-              Content
-            </a>
-          </li>
-          <li>
-            <a href="#visit-us"> 
-              Visit Us
-            </a>
-          </li>
-          <li>
-            <a href="#contact-us"> 
+            <Link className="navbarItem" to="/contact">
               Kontakt
-            </a>
+            </Link>
           </li>
           <li>
             <Link className="navbarItem" to="/gallery">
@@ -41,7 +31,6 @@ function NavigationBar() {
               Om os
             </Link>{" "}
           </li>
-          {/* <li ><Link className='navbarItem' to='/contact' > Kontakt</Link></li> */}
         </ul>
       </div>
     </section>
