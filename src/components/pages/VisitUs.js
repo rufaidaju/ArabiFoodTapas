@@ -1,6 +1,6 @@
 import React from "react";
 import Map from "./Map.js";
-import mobile from "../../assets/icons/mobile-app.png";
+import mobile from "../../assets/icons/phone.png";
 import email from "../../assets/icons/email.png";
 import address from "../../assets/icons/location-pin.png";
 import facebook from "../../assets/icons/facebook-blue.png";
