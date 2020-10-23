@@ -25,7 +25,7 @@ function VisitUs() {
             </div>
             <div className="contact-info">
               <img src={`${address}`} alt="" />
-              <a href="https://g.page/VaerftetsMadmarked?share" target="_blank">
+              <a href="https://g.page/VaerftetsMadmarked?share" target="_blank" rel="noopener noreferrer">
                 <p>Værftets Madmarked, Ny Kronborgvej 2, 3000 Helsingør</p>
               </a>
             </div>
@@ -34,7 +34,7 @@ function VisitUs() {
               <span>
                 <a
                   href="https://www.facebook.com/ArabiFoodTapas "
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   {" "}
                   <p>facebook.com/ArabiFoodTapas </p>{" "}
