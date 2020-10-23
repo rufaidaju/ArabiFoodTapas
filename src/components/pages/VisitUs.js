@@ -9,10 +9,10 @@ import cvr from "../../assets/icons/cvr.png";
 
 function VisitUs() {
   return (
-    <section className="visitUs">
+    <section id="contact-us" className="visitUs">
       <Map />
 
-      <h1>Kontakt os</h1>
+      <h1>Contact os</h1>
 
       <div className="contact-container">
         <div className="cont">
