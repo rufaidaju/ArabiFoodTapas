@@ -15,7 +15,7 @@ function NavigationBar() {
             </Link>
           </li>
           <li>
-            <Link className="navbarItem" z to="/contact">
+            <Link className="navbarItem" to="/contact">
               Kontakt
             </Link>
           </li>
@@ -31,7 +31,6 @@ function NavigationBar() {
               Om os
             </Link>{" "}
           </li>
-          {/* <li ><Link className='navbarItem' to='/contact' > Kontakt</Link></li> */}
         </ul>
       </div>
     </section>
