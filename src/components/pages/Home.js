@@ -1,4 +1,5 @@
 import React from "react";
+import MainPage from "./MainPage"
 import VisitUs from "./VisitUs";
 import Menu from "./Menu";
 
@@ -8,6 +9,7 @@ import menuList from "../../assets/images/menuList.jpg";
 function Home() {
   return (
     <section className="container">
+      <MainPage />
       <div className="middle-cont">
         <div className="box-cont">
           <h3>
