@@ -18,8 +18,8 @@ function Content() {
         </h3>
       </div>
       <div className="new-Pic-class">
-        <img src={`${reem5}`} width={"350px"} alt="" />
         <img src={`${food6}`} width={"350px"}   alt="" />
+        <img src={`${reem5}`} width={"350px"} alt="" />
         <img src={`${food7}`} width={"350px"}  alt="" />
              </div>
       <div className="box-cont">
