@@ -30,13 +30,6 @@ function VisitUs() {
             </div>
 
             <div className="contact-info">
-              <img src={`${email}`} alt="" />
-              <a href="mailto:reemmsh1223@gmail.com?subject=Inquiry about products">
-                <p>reemmsh1223@gmail.com</p>
-              </a>
-            </div>
-
-            <div className="contact-info">
               <img src={`${facebook}`} alt="" />
               <span>
                 <a
@@ -48,6 +41,13 @@ function VisitUs() {
                   <p>facebook.com/ArabiFoodTapas</p>{" "}
                 </a>
               </span>
+            </div>
+
+            <div className="contact-info">
+              <img src={`${email}`} alt="" />
+              <a href="mailto:reemmsh1223@gmail.com?subject=Inquiry about products">
+                <p>reemmsh1223@gmail.com</p>
+              </a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ function VisitUs() {
             <div className="contact-info">
               <img src={`${time}`} alt="" />
 
-              <p> 11:00 AM - 8:00 PM </p>
+              <p> 11:00 - 20:00  </p>
             </div>
             <div className="contact-info">
               <img src={`${cvr}`} alt="" />
