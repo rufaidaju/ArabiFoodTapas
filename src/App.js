@@ -13,23 +13,19 @@ import VisitUs from "./components/pages/VisitUs";
 function App() {
   return (
     <div className="App">
-
- <Router>
-  <NavigationBar />
-  <Switch>
-    <Route exact path="/" component={Home} />
-    <Route path="/gallery" component={Gallery} />
-    <Route path="/contact" component={VisitUs} />
-    <Route path="/about" component={About} />
-    {/* <Route component={ErrorPage} /> */}
-  </Switch>
-</Router>
-<Footer /> 
-
-
+      <Router>
+        <NavigationBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/gallery" component={Gallery} />
+          <Route path="/contact" component={VisitUs} />
+          <Route path="/about" component={About} />
+          {/* <Route component={ErrorPage} /> */}
+        </Switch>
+      </Router>
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
