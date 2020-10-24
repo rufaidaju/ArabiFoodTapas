@@ -43,9 +43,8 @@
   text-decoration: underline;
 }
 
-.logo {
-  padding-left: 20px;
-  color: #fff;
+.navbar-container img {
+  width: 150px;
 }
 
 .burger div {
@@ -174,9 +173,7 @@
 }
 
 .box-cont {
-  margin: 15px 40px;
-  display: flex;
-  align-items: center;
+  margin: 35px 40px;
 }
 
 .box-cont img {
@@ -190,12 +187,12 @@
 .new-Pic-class img {
   padding: 5px;
 }
-.box-cont h3 {
+
+.box-cont p {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
-  font-weight: normal;
   text-align: center;
-  padding: 40px;
+  line-height: 1.5em;
 }
 
 /* - About */
@@ -242,23 +239,32 @@
 
 .visitUs h2 {
   margin-top: 30px;
-  font-size: 40px;
+  font-size: 30px;
 }
 
+.visitUs p {
+  margin-top: 10px;
+  font-size: 20px;
+}
 .contact-container {
   display: flex;
   width: 90vw;
-  margin: 30px auto;
+  margin: 30px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .contact-info {
   display: flex;
   margin: 10px;
+  align-items: center;
+
+
 }
 
 .contact-info img {
   width: 40px;
+  height: 40px;
   margin-right: 15px;
 }
 
@@ -280,15 +286,18 @@ a {
   text-decoration: none;
   color: #000;
 }
-.resturant-img  {
-  width: 340px;
+
+.resturant-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
 }
 
 .resturant-img img {
   width: 100%;
-  border-radius: 50%;  
-} 
-
+  border-radius: 50%;
+}
 
 /* -Gallery */
 
@@ -424,7 +433,8 @@ a {
     font-size: 15px;
   }
 
-  .about-container {
+  .about-container,
+  .new-Pic-class {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -483,9 +493,7 @@ a {
   }
 
   .box-cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
   .box-cont img {
@@ -494,17 +502,20 @@ a {
   }
 
   .contact-container {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     width: 375;
+    align-items: flex-start;
   }
-
+  .navbar-container img {
+    width: 100px;
+  }
   .cont {
     margin: 10px;
   }
+
   .resturant-img img {
     width: 250px;
+    /* margin-left: 50vw; */
   }
   .cont p {
     font-size: 20px;
@@ -521,5 +532,26 @@ a {
 
   .about-info img {
     width: 60%;
+  }
+
+  .new-Pic-class img,
+  .tapas {
+    width: 250px;
+    height: 250px;
+  }
+
+  .visitUs p {
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .navbar ul {
+    width: 350px;
+  }
+
+  .navbarItem {
+    font: 13px "lato", sans-serif;
+    color: #275470;
   }
 }
