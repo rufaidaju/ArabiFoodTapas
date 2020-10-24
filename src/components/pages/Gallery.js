@@ -21,7 +21,6 @@ import food8 from "../../assets/images/food8.jpg";
 import food9 from "../../assets/images/food9.jpg";
 import kitchen from "../../assets/images/kitchen.jpg";
 import lovedamas from "../../assets/images/lovedamas.jpg";
-import tapas from "../../assets/images/tapas.png";
 
 function Gallery() {
   return (
@@ -53,7 +52,6 @@ function Gallery() {
           {/* <img src={`${reemRestaurant2}`} alt="" /> */}
           <img src={`${reemRestaurant3}`} alt="" />
 
-          <img src={`${tapas}`} alt="" />
         </div>
       </div>
     </section>

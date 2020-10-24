@@ -3,6 +3,8 @@ import React from "react";
 import food6 from "../../assets/images/food6.jpg";
 import food7 from "../../assets/images/food7.jpg";
 import reem5 from "../../assets/images/Reem5.jpeg";
+import tapas from "../../assets/images/tapas.png";
+
 
 
 function Content() {
@@ -29,6 +31,8 @@ function Content() {
           lækkert veltilberedt måltid eller måske en spændende snack….
         </h3>
       </div>
+      <img src={`${tapas}`} width={"350px"}  alt="" />
+
     </section>
   );
 }
