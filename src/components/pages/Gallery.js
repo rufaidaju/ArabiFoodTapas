@@ -26,7 +26,7 @@ import tapas from "../../assets/images/tapas.png";
 function Gallery() {
   return (
     <section className="gallery">
-      <h2>Gallery</h2>
+      <h2>Galleri</h2>
       <p>
         
       </p>{" "}
@@ -50,7 +50,6 @@ function Gallery() {
           <img src={`${kitchen}`} alt="" />
 
           <img src={`${lovedamas}`} alt="" />
-          <img src={`${reemRestaurant1}`} alt="" />
           <img src={`${reemRestaurant2}`} alt="" />
           <img src={`${reemRestaurant3}`} alt="" />
 

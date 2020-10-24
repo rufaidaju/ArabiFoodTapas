@@ -1,18 +1,20 @@
 import React from "react";
 import Map from "./Map.js";
-import mobile from "../../assets/icons/mobile-app.png";
+import mobile from "../../assets/icons/phone.png";
 import email from "../../assets/icons/email.png";
 import address from "../../assets/icons/location-pin.png";
 import facebook from "../../assets/icons/facebook-blue.png";
 import time from "../../assets/icons/time.png";
 import cvr from "../../assets/icons/cvr.png";
+import reemRestaurant1 from "../../assets/images/ReemRestaurant1.jpg";
+
 
 function VisitUs() {
   return (
     <section className="visitUs">
       <Map />
 
-      <h1>Kontakt os</h1>
+      <h2>Kontakt os</h2>
 
       <div className="contact-container">
         <div className="cont">
@@ -25,8 +27,8 @@ function VisitUs() {
             </div>
             <div className="contact-info">
               <img src={`${address}`} alt="" />
-              <a href="https://g.page/VaerftetsMadmarked?share" target="_blank">
-                <p>Værftets Madmarked, Ny Kronborgvej 2, 3000 Helsingør</p>
+              <a href="https://g.page/VaerftetsMadmarked?share" target="_blank" rel="noopener noreferrer">
+                <p>Ny Kronborgvej 2, 3000 Helsingør</p>
               </a>
             </div>
             <div className="contact-info">
@@ -34,10 +36,10 @@ function VisitUs() {
               <span>
                 <a
                   href="https://www.facebook.com/ArabiFoodTapas "
-                  target="_blank"
+                  target="_blank" rel="noopener noreferrer"
                 >
                   {" "}
-                  <p>facebook.com/ArabiFoodTapas </p>{" "}
+                  <p>facebook.com/ArabiFoodTapas</p>{" "}
                 </a>
               </span>
             </div>
@@ -63,6 +65,9 @@ function VisitUs() {
               <p> 39447630</p>
             </div>
           </div>
+        </div>
+        <div className="resturant-img">
+        <img src={`${reemRestaurant1}`} alt="Arabi Food resturant" />
         </div>
       </div>
     </section>

@@ -13,6 +13,7 @@
   display: flex;
   justify-content: center;
   height: 100px;
+  border-bottom: #275470 1px solid;
 }
 
 .navbar-container {
@@ -33,7 +34,7 @@
 .navbarItem {
   font: 18px "lato", sans-serif;
   text-decoration: none;
-  color: #000;
+  color: #275470;
   /* font-weight: bold; */
 }
 
@@ -51,16 +52,14 @@
 .main-page{
   display: flex;
   position: relative;
-  /* opacity:0.5; */
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 87.5vh;
-  /* background: rgba(0, 0, 0, 0.5); */
   background-image: url('./assets/images/main-page.jpg');
   background-repeat: no-repeat center center fixed;
   background-size: cover;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 .main-page::before {
   content: "";
@@ -134,8 +133,8 @@
 
 .footer {
   height: 80px;
-  background-color: #fffd81;
-  color: #000;
+  background-color: #275470;
+  color:#fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,8 +153,13 @@
 
 .footer a {
   text-decoration: none;
-  color: rgb(218, 26, 26);
+  color: #bfeced;
 }
+.footer a:hover {
+  text-decoration: none;
+  color: #ff0;
+}
+
 
 /* - Home  */
 .container {
@@ -199,6 +203,7 @@
   justify-content: center;
   align-items: center;
   background-color: white;
+  height: 100vh;
 }
 
 .about-info {
@@ -233,15 +238,17 @@
   align-items: center;
 }
 
-.visitUs h1 {
+.visitUs h2 {
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 40px;
+  /* padding: 1.3em;; */
 }
 
 .contact-container {
   display: flex;
   width: 90vw;
   margin: 30px auto;
+  justify-content: space-between;
 }
 
 .contact-info {
@@ -255,7 +262,7 @@
 }
 
 .cont {
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -264,13 +271,17 @@
 }
 
 .cont p {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 10px;
 }
 
 a {
   text-decoration: none;
   color: #000;
+}
+.resturant-img img{
+  width: 340px;
+  border-radius: 50%;
 }
 
 /* -Gallery */
