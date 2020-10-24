@@ -1,9 +1,11 @@
 import React from "react";
 
 import food6 from "../../assets/images/food6.jpg";
+import food8 from "../../assets/images/food8.jpg";
 import food7 from "../../assets/images/food7.jpg";
 import reem5 from "../../assets/images/Reem5.jpeg";
 import tapas from "../../assets/images/tapas.png";
+
 
 
 
@@ -21,7 +23,7 @@ function Content() {
       </div>
       <div className="new-Pic-class">
         <img src={`${food6}`} width={"350px"}   alt="" />
-        <img src={`${reem5}`} width={"350px"} height={"350"} alt="" />
+        <img src={`${food8}`} width={"350px"} height={"350"} alt="" />
         <img src={`${food7}`} width={"350px"}  alt="" />
              </div>
       <div className="box-cont">
@@ -31,7 +33,7 @@ function Content() {
           lækkert veltilberedt måltid eller måske en spændende snack….
         </h3>
       </div>
-      <img src={`${tapas}`} width={"350px"}  alt="" />
+      <img className="tapas" src={`${tapas}`} width={"350px"}  alt="" />
 
     </section>
   );

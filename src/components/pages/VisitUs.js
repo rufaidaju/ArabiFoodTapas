@@ -8,7 +8,6 @@ import time from "../../assets/icons/time.png";
 import cvr from "../../assets/icons/cvr.png";
 import reemRestaurant1 from "../../assets/images/ReemRestaurant1.jpg";
 
-
 function VisitUs() {
   return (
     <section className="visitUs">
@@ -20,23 +19,30 @@ function VisitUs() {
         <div className="cont">
           <div>
             <div className="contact-info">
+              <img src={`${address}`} alt="" />
+              <a
+                href="https://g.page/VaerftetsMadmarked?share"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>Ny Kronborgvej 2, 3000 Helsingør</p>
+              </a>
+            </div>
+
+            <div className="contact-info">
               <img src={`${email}`} alt="" />
               <a href="mailto:reemmsh1223@gmail.com?subject=Inquiry about products">
                 <p>reemmsh1223@gmail.com</p>
               </a>
             </div>
-            <div className="contact-info">
-              <img src={`${address}`} alt="" />
-              <a href="https://g.page/VaerftetsMadmarked?share" target="_blank" rel="noopener noreferrer">
-                <p>Ny Kronborgvej 2, 3000 Helsingør</p>
-              </a>
-            </div>
+
             <div className="contact-info">
               <img src={`${facebook}`} alt="" />
               <span>
                 <a
                   href="https://www.facebook.com/ArabiFoodTapas "
-                  target="_blank" rel="noopener noreferrer"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   {" "}
                   <p>facebook.com/ArabiFoodTapas</p>{" "}
@@ -67,7 +73,7 @@ function VisitUs() {
           </div>
         </div>
         <div className="resturant-img">
-        <img src={`${reemRestaurant1}`} alt="Arabi Food resturant" />
+          <img src={`${reemRestaurant1}`} alt="Arabi Food resturant" />
         </div>
       </div>
     </section>
