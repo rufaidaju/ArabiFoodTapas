@@ -50,7 +50,7 @@ function Gallery() {
           <img src={`${kitchen}`} alt="" />
 
           <img src={`${lovedamas}`} alt="" />
-          <img src={`${reemRestaurant2}`} alt="" />
+          {/* <img src={`${reemRestaurant2}`} alt="" /> */}
           <img src={`${reemRestaurant3}`} alt="" />
 
           <img src={`${tapas}`} alt="" />
