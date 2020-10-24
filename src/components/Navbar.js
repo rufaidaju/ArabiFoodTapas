@@ -6,7 +6,7 @@ function NavigationBar() {
   return (
     <section className="navbar">
       <div className="navbar-container">
-        <img src={`${logo}`} width="350px" alt="" width="150px" />
+        <img src={`${logo}`}  />
 
         <ul>
           <li>
