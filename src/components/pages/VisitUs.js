@@ -12,9 +12,9 @@ import reemRestaurant1 from "../../assets/images/ReemRestaurant1.jpg";
 function VisitUs() {
   return (
     <section className="visitUs">
-      <Map />
-
       <h2>Kontakt os</h2>
+
+      <Map />
 
       <div className="contact-container">
         <div className="cont">
