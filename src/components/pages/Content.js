@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 import food6 from "../../assets/images/food6.jpg";
 import food8 from "../../assets/images/food8.jpg";
@@ -27,6 +29,10 @@ function Content() {
           Ud over lækre syriske tapas kan du også få himmelske Falafler, lækker
           Sfeha, fantastisk Shish Kebab, fløjlsblød Hummus og en hel masse andre
           spændende syriske retter.
+          <Link className="navbarItem" to="/gallery">
+              {" "}
+              Galleri
+            </Link>
         </h3>
       </div>
       <img className="tapas" src={`${tapas}`} width={"350px"} alt="" />
