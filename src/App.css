@@ -237,14 +237,12 @@
 .visitUs {
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 30px; */
   align-items: center;
 }
 
 .visitUs h2 {
   margin-top: 30px;
   font-size: 40px;
-  /* padding: 1.3em;; */
 }
 
 .contact-container {
@@ -282,10 +280,15 @@ a {
   text-decoration: none;
   color: #000;
 }
-.resturant-img img {
+.resturant-img  {
   width: 340px;
-  border-radius: 50%;
 }
+
+.resturant-img img {
+  width: 100%;
+  border-radius: 50%;  
+} 
+
 
 /* -Gallery */
 
