@@ -186,6 +186,11 @@
 .tapas {
   border-radius: 15px;
 }
+
+
+.new-Pic-class img{ 
+  padding: 5px;
+}
 .box-cont h3 {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
