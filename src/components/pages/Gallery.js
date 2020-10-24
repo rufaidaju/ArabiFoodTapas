@@ -22,9 +22,6 @@ function Gallery() {
   return (
     <section className="gallery">
       <h2>Galleri</h2>
-      <p>
-        
-      </p>{" "}
       <div className="gallery-container">
         <div className="gallery-group ">
           <img src={`${reem2}`} alt="" />
@@ -43,7 +40,6 @@ function Gallery() {
           <img src={`${lovedamas}`} alt="" />
           <img src={`${reemRestaurant3}`} alt="" />
           <img src={`${food8}`} alt="" />
-
         </div>
       </div>
     </section>

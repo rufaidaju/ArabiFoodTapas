@@ -11,7 +11,7 @@ import reemRestaurant1 from "../../assets/images/ReemRestaurant1.jpg";
 function VisitUs() {
   return (
     <section className="visitUs">
-      <h2>Kontakt os</h2>
+      <h2>Besøg os</h2>
 
       <Map />
 
