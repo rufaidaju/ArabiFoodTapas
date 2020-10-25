@@ -9,7 +9,7 @@
   position: relative;
 }
 
-/* Navbar */
+/* - Navbar - */
 .navbar {
   display: flex;
   justify-content: center;
@@ -39,7 +39,6 @@
   font: 18px "lato", sans-serif;
   text-decoration: none;
   color: #275470;
-  /* font-weight: bold; */
 }
 
 .navbarItem:hover {
@@ -152,7 +151,7 @@
   animation-delay: 3s;
 }
 
-/* - Footer */
+/* - Footer - */
 
 .footer {
   height: 80px;
@@ -219,7 +218,7 @@
   line-height: 1.5em;
 }
 
-/* - About */
+/* - About- */
 .about-container {
   margin: 0 auto;
   padding-top: 50px;
@@ -255,7 +254,7 @@
   padding-bottom: 20px;
 }
 
-/* -Visit Us  */
+/* -Visit Us-  */
 
 .visitUs {
   margin: 0 auto;
@@ -283,7 +282,6 @@
 }
 
 .cont {
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -326,7 +324,7 @@ a {
   border-radius: 50%;
 }
 
-/* -Gallery */
+/* -Gallery- */
 
 .gallery {
   margin: 0 auto;
@@ -360,7 +358,7 @@ a {
   border-radius: 20px;
 }
 
-/* - Menu */
+/* - Menu - */
 
 .menuList {
   display: flex;
@@ -393,10 +391,9 @@ a {
   text-align: center;
 }
 
-/* - Slider */
+/* - Slider - */
 
 .header {
-  /* background-image: url("../../assets/images/12.jpg"); */
   width: 100%;
   height: 80vh;
   color: White;
@@ -437,7 +434,7 @@ a {
   height: 100%;
 }
 
-/* -- map */
+/* -- map -- */
 
 .map-container {
   margin-top: 25px;
@@ -451,7 +448,7 @@ a {
   margin: 5px;
 }
 
-/* -- responsive design */
+/* -- responsive design -- */
 
 @media screen and (max-width: 992px) {
   .navbar ul {
@@ -492,31 +489,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  /* body {
-    overflow-x: hidden;
-  }
-
-  .navbar ul {
-    height: 80vh;
-    top: 100px;
-    right: 0;
-    width: 50%;
-    background: #fff;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-
-  .burger {
-    display: block;
-    margin: 30px;
-    cursor: pointer;
-  } */
-
   .content-container {
     display: flex;
     flex-direction: column;
@@ -532,10 +504,6 @@ a {
     width: 300px;
     order: 2;
   }
-  /* 
-  .contact-container {
-    justify-content: flex-start;
-  } */
 
   .navbar-container img {
     width: 100px;
@@ -546,7 +514,6 @@ a {
 
   .resturant-img img {
     width: 250px;
-    /* margin-left: 50vw; */
   }
 
   .contact-info p {
@@ -575,6 +542,7 @@ a {
   .visitUs p {
     text-align: center;
   }
+
 }
 
 @media screen and (max-width: 576px) {

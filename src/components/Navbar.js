@@ -6,7 +6,7 @@ function NavigationBar() {
   return (
     <section className="navbar">
       <div className="navbar-container">
-        <img src={`${logo}`}  />
+        <img src={`${logo}`} alt="logo" />
 
         <ul>
           <li>
@@ -32,15 +32,7 @@ function NavigationBar() {
             </Link>{" "}
           </li>
         </ul>
-     
       </div>
-
-      <div className="burger">
-          <div className="line1"></div>
-          <div className="line2"></div>
-          <div className="line3"></div>
-      </div>
-
     </section>
   );
 }
