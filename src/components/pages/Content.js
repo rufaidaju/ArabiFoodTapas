@@ -19,9 +19,9 @@ function Content() {
       </div>
 
       <div className="new-Pic-class">
-        <img src={`${food6}`} width={"350px"} height={"350"} alt="" />
-        <img src={`${food7}`} width={"350px"} height={"350"} alt="" />
-        <img src={`${food8}`} width={"350px"} height={"350"} alt="" />
+        <img src={`${food6}`}  alt="" />
+        <img src={`${food7}`}  alt="" />
+        <img src={`${food8}`}  alt="" />
       </div>
 
       <div className="box-cont">
