@@ -166,12 +166,14 @@
 
 .footer p {
   padding: 5px;
+  font: 18px "lato", sans-serif;
 }
 
 .footer a {
   text-decoration: none;
   color: #bfeced;
 }
+
 .footer a:hover {
   text-decoration: none;
   color: #ff0;
@@ -217,7 +219,6 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-
 }
 
 .new-Pic-class img {
@@ -238,8 +239,6 @@
   text-align: center;
   line-height: 1.5em;
 }
-
-
 
 /* - About- */
 .about-container {
@@ -473,7 +472,7 @@ a {
 
 /* -- responsive design -- */
 
-@media screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
   .navbar ul {
     width: 450px;
   }
@@ -511,7 +510,7 @@ a {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .content-container {
     display: flex;
     flex-direction: column;
@@ -557,7 +556,6 @@ a {
   }
 
   .tapas {
-
   }
   .new-Pic-class img,
   .tapas img {
@@ -570,7 +568,7 @@ a {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   .navbar ul {
     width: 350px;
   }
@@ -582,5 +580,16 @@ a {
 
   .contact-info p {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .navbarItem {
+    font: 13px "lato", sans-serif;
+    color: #275470;
+  }
+
+  .footer p {
+    font-size: 14px;
   }
 }
