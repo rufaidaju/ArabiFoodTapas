@@ -600,4 +600,10 @@ a {
     font-size: 10px;
     font-weight: normal;
   }
+  .gallery-group img {
+    margin: 30px;
+    width: 300px;
+    height:  300px;
+  }
+
 }
