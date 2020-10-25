@@ -31,7 +31,9 @@ function Content() {
           spændende syriske retter. Se vores <span><Link className="navbarItem" to="/gallery"> Galleri.</Link></span> 
         </p>
       </div>
-      <img className="tapas" src={`${tapas}`} width={"350px"} alt="tapas" />
+      <div className="tapas" >
+      <img src={`${tapas}`}  alt="tapas" />
+      </div>
     </section>
   );
 }
