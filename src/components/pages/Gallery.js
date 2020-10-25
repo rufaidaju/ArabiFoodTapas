@@ -16,7 +16,7 @@ import lovedamas from "../../assets/images/lovedamas.jpg";
 import reemRestaurant3 from "../../assets/images/ReemRestaurant3.jpg";
 import food10 from "../../assets/images/image6.jpg";
 import food11 from "../../assets/images/food2.jpg";
-// import food12 from "../../assets/images/menuList.jpg";
+ import food12 from "../../assets/images/menuList.jpg";
 
 function Gallery() {
   return (
@@ -40,7 +40,7 @@ function Gallery() {
           <img src={`${reemRestaurant3}`} alt="reemRestaurant3" />
           <img src={`${food10}`} alt="food10" />
           <img src={`${food11}`} alt="food11" />
-          {/* <img src={`${food12}`} alt="food12" /> */}
+          <img src={`${food12}`} alt="food12" />
           
         </div>
       </div>
