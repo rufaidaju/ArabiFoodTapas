@@ -222,8 +222,9 @@
 
 /* - About */
 .about-container {
-  margin: 20px;
-  display: flex;
+  margin: 0 auto;
+  padding-top: 50px; 
+   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100%;
@@ -245,25 +246,27 @@
   font-family: "Helvetica Neue";
 }
 
-.about-container h2 {
-  margin: 20px;
+.about-container h3 {
+  margin: 30px;
+  font-size: 20px;
+
 }
 
-.about-container h1 {
-  margin: 20px;
+.about-container h2 {
   font-size: 30px;
 }
 
 /* -Visit Us  */
 
 .visitUs {
+  margin: 0 auto;
+  padding-top: 50px; 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .visitUs h2 {
-  margin-top: 30px;
   font-size: 30px;
 }
 
@@ -330,13 +333,16 @@ a {
 
 .gallery {
   margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
+}
+.gallery h2 {
+  font-size: 30px;
 }
 
 .gallery p {
@@ -586,7 +592,7 @@ a {
   }
 
   .navbarItem {
-    font: 13px "lato", sans-serif;
+    font: 15px "lato", sans-serif;
     color: #275470;
   }
   .new-Pic-class {

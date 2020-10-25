@@ -4,7 +4,7 @@ import reem7 from "../../assets/images/Reem7.jpg";
 function About() {
   return (
     <section className="about-container">
-      <h1>Om os</h1>
+      <h2>Om os</h2>
       <div className="about-info">
         <div className="about-text">
           <p>
@@ -30,7 +30,7 @@ function About() {
 
         <img src={`${reem7}`} alt="" />
       </div>
-      <h2>Vi glæder os til at lave mad til dig!</h2>
+      <h3>Vi glæder os til at lave mad til dig!</h3>
     </section>
   );
 }
