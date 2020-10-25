@@ -20,7 +20,7 @@ function VisitUs() {
         <div className="cont">
           <div>
             <div className="contact-info">
-              <img src={`${address}`} alt="" />
+              <img src={`${address}`} alt="addressIcon" />
               <a
                 href="https://g.page/VaerftetsMadmarked?share"
                 target="_blank"
@@ -31,7 +31,7 @@ function VisitUs() {
             </div>
 
             <div className="contact-info">
-              <img src={`${facebook}`} alt="" />
+              <img src={`${facebook}`} alt="facebookIcon" />
               <span>
                 <a
                   href="https://www.facebook.com/ArabiFoodTapas "
@@ -45,7 +45,7 @@ function VisitUs() {
             </div>
 
             <div className="contact-info">
-              <img src={`${email}`} alt="" />
+              <img src={`${email}`} alt="emailIcon" />
               <a href="mailto:reemmsh1223@gmail.com?subject=Inquiry about products">
                 <p>reemmsh1223@gmail.com</p>
               </a>
@@ -56,25 +56,25 @@ function VisitUs() {
         <div className="cont">
           <div>
             <div className="contact-info">
-              <img src={`${mobile}`} alt="" />
+              <img src={`${mobile}`} alt="mobileIcon" />
 
               <p>+45 81 71 60 64</p>
             </div>
 
             <div className="contact-info">
-              <img src={`${time}`} alt="" />
+              <img src={`${time}`} alt="timeIcon" />
 
               <p> 11:00 - 20:00 </p>
             </div>
             <div className="contact-info">
-              <img src={`${cvr}`} alt="" />
+              <img src={`${cvr}`} alt="cvrIcon" />
 
               <p> 39447630</p>
             </div>
           </div>
         </div>
         <div className="resturant-img">
-          <img src={`${reemRestaurant1}`} alt="Arabi Food resturant" />
+          <img src={`${reemRestaurant1}`} alt="reemRestaurant1" />
         </div>
       </div>
     </section>
