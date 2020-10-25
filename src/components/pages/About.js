@@ -28,7 +28,7 @@ function About() {
           </p>
         </div>
 
-        <img src={`${reem7}`} alt="" />
+        <img src={`${reem7}`} alt="reem7" />
       </div>
       <h3>Vi glæder os til at lave mad til dig!</h3>
     </section>

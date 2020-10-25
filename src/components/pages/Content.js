@@ -19,9 +19,9 @@ function Content() {
       </div>
 
       <div className="new-Pic-class">
-        <img src={`${food6}`}  alt="" />
-        <img src={`${food7}`}  alt="" />
-        <img src={`${food8}`}  alt="" />
+        <img src={`${food6}`}  alt="food6" />
+        <img src={`${food7}`}  alt="food7" />
+        <img src={`${food8}`}  alt="food8" />
       </div>
 
       <div className="box-cont">
@@ -31,7 +31,7 @@ function Content() {
           spændende syriske retter. Se vores <span><Link className="navbarItem" to="/gallery"> Galleri.</Link></span> 
         </p>
       </div>
-      <img className="tapas" src={`${tapas}`} width={"350px"} alt="" />
+      <img className="tapas" src={`${tapas}`} width={"350px"} alt="tapas" />
     </section>
   );
 }
