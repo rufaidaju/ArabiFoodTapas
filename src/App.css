@@ -195,7 +195,18 @@
 }
 
 .tapas {
+  overflow: hidden;
+  width: 350px;
   border-radius: 15px;
+}
+.tapas img {
+  width: 100%;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+
+.tapas:hover img {
+  transform: scale(1.2);
 }
 
 .new-Pic-class {
@@ -203,12 +214,20 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+
 }
 
 .new-Pic-class img {
   padding: 5px;
   width: 350px;
   height: 350px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+
+.new-Pic-class img:hover {
+  transform: scale(1.2);
 }
 
 .box-cont p {
@@ -217,6 +236,8 @@
   text-align: center;
   line-height: 1.5em;
 }
+
+
 
 /* - About- */
 .about-container {
@@ -534,7 +555,7 @@ a {
   }
 
   .new-Pic-class img,
-  .tapas {
+  .tapas img {
     width: 250px;
     height: 250px;
   }
@@ -542,7 +563,6 @@ a {
   .visitUs p {
     text-align: center;
   }
-
 }
 
 @media screen and (max-width: 576px) {
