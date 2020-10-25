@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Button from "./components/Button";
 
 import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
@@ -13,7 +14,7 @@ import VisitUs from "./components/pages/VisitUs";
 
 function AppRouter() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Navbar />
         <Switch>
@@ -25,6 +26,7 @@ function AppRouter() {
           {/* <Route component={ErrorPage} /> */}
         </Switch>
       </Router>
+      <Button />
       <Footer />
     </div>
   );

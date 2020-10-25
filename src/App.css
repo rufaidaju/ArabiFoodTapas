@@ -6,14 +6,19 @@
 
 .App {
   height: 100vh;
+  position: relative;
 }
 
-/* Navbar */
+/* - Navbar - */
 .navbar {
   display: flex;
   justify-content: center;
+  background-color: #fff;
   height: 100px;
   border-bottom: #275470 1px solid;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .navbar-container {
@@ -42,9 +47,8 @@
   text-decoration: underline;
 }
 
-.logo {
-  padding-left: 20px;
-  color: #fff;
+.navbar-container img {
+  width: 150px;
 }
 
 .burger div {
@@ -56,6 +60,16 @@
 
 .burger {
   display: none;
+}
+
+.button {
+  width: 60px;
+  height: 30px;
+  position: fixed;
+  top: 50%;
+  z-index: 1;
+  right: 0;
+  font-size: 16px;
 }
 
 /* MainPage */
@@ -132,7 +146,7 @@
   animation-delay: 3s;
 }
 
-/* - Footer */
+/* - Footer - */
 
 .footer {
   height: 80px;
@@ -168,26 +182,41 @@
 }
 
 .box-cont {
-  margin: 15px 40px;
-  display: flex;
-  align-items: center;
+  margin: 35px 40px;
 }
 
 .box-cont img {
   width: 350px;
 }
 
-.box-cont h3 {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: normal;
-  text-align: center;
-  padding: 40px;
+.tapas {
+  border-radius: 15px;
 }
 
-/* - About */
+.new-Pic-class {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-Pic-class img {
+  padding: 5px;
+  width: 350px;
+  height: 350px;
+}
+
+.box-cont p {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* - About- */
 .about-container {
-  margin: 20px;
+  margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -210,49 +239,44 @@
   font-family: "Helvetica Neue";
 }
 
+.about-container h3 {
+  margin: 30px;
+  font-size: 20px;
+}
+
 .about-container h2 {
-  margin: 20px;
-}
-
-.about-container h1 {
-  margin: 20px;
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
-/* -Visit Us  */
+/* -Visit Us-  */
 
 .visitUs {
+  margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
   align-items: center;
 }
 
 .visitUs h2 {
-  margin-top: 30px;
-  font-size: 40px;
-  /* padding: 1.3em;; */
+  font-size: 30px;
 }
 
+.visitUs p {
+  margin-top: 10px;
+  font-size: 20px;
+}
 .contact-container {
   display: flex;
+  flex-wrap: wrap;
   width: 90vw;
-  margin: 30px auto;
-  justify-content: space-between;
-}
-
-.contact-info {
-  display: flex;
-  margin: 10px;
-}
-
-.contact-info img {
-  width: 40px;
-  margin-right: 15px;
+  margin: 30px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cont {
-  /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -260,8 +284,21 @@
   text-align: center;
 }
 
-.cont p {
-  font-size: 20px;
+.contact-info {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.contact-info p {
+  font-size: 30px;
   padding-top: 10px;
 }
 
@@ -269,22 +306,33 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+.resturant-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
 .resturant-img img {
-  width: 340px;
+  width: 100%;
   border-radius: 50%;
 }
 
-/* -Gallery */
+/* -Gallery- */
 
 .gallery {
   margin: 0 auto;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
+}
+.gallery h2 {
+  font-size: 30px;
 }
 
 .gallery p {
@@ -293,7 +341,6 @@ a {
 }
 .gallery-group {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -306,7 +353,7 @@ a {
   box-shadow: 0 30px 10px -20px #142c3a;
 }
 
-/* - Menu */
+/* - Menu - */
 
 .menuList {
   display: flex;
@@ -339,10 +386,9 @@ a {
   text-align: center;
 }
 
-/* - Slider */
+/* - Slider - */
 
 .header {
-  /* background-image: url("../../assets/images/12.jpg"); */
   width: 100%;
   height: 80vh;
   color: White;
@@ -383,17 +429,21 @@ a {
   height: 100%;
 }
 
-/* -- map */
+/* -- map -- */
 
-.map {
+.map-container {
   margin-top: 25px;
   display: flex;
   justify-content: center;
   width: 100%;
   height: 450px;
 }
+.map {
+  border: none;
+  margin: 5px;
+}
 
-/* -- responsive design */
+/* -- responsive design -- */
 
 @media screen and (max-width: 992px) {
   .navbar ul {
@@ -404,7 +454,7 @@ a {
     width: 250px;
   }
 
-  .cont p {
+  .contact-info p {
     font-size: 15px;
   }
 
@@ -438,31 +488,6 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-  /* body {
-    overflow-x: hidden;
-  }
-
-  .navbar ul {
-    height: 80vh;
-    top: 100px;
-    right: 0;
-    width: 50%;
-    background: #fff;
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transform: translateX(100%);
-    transition: transform 0.5s ease-in;
-  }
-
-  .burger {
-    display: block;
-    margin: 30px;
-    cursor: pointer;
-  } */
-
   .content-container {
     display: flex;
     flex-direction: column;
@@ -471,9 +496,7 @@ a {
   }
 
   .box-cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
   .box-cont img {
@@ -481,20 +504,18 @@ a {
     order: 2;
   }
 
-  .contact-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 375;
+  .navbar-container img {
+    width: 100px;
   }
-
   .cont {
     margin: 10px;
   }
+
   .resturant-img img {
     width: 250px;
   }
-  .cont p {
+
+  .contact-info p {
     font-size: 20px;
   }
 
@@ -514,5 +535,31 @@ a {
 
   .about-info img {
     width: 60%;
+  }
+
+  .new-Pic-class img,
+  .tapas {
+    width: 250px;
+    height: 250px;
+  }
+
+  .visitUs p {
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+  .navbar ul {
+    width: 350px;
+  }
+
+  .navbarItem {
+    font: 15px "lato", sans-serif;
+    color: #275470;
+  }
+
+  .contact-info p {
+    font-size: 16px;
   }
 }

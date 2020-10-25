@@ -28,7 +28,7 @@ function Footer() {
 
       <div>
         <p>
-          Designed By developed by{" "}
+          Designed and developed by{" "}
           <span>
             <a
               href="https://myshuker.github.io/myPortfolio/#/ "
@@ -46,7 +46,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "} 
+              {" "}
               Rufaida Jumaa{" "}
             </a>
           </span>
