@@ -40,7 +40,7 @@ function Gallery() {
           <img src={`${reemRestaurant3}`} alt="reemRestaurant3" />
           <img src={`${food10}`} alt="food10" />
           <img src={`${food11}`} alt="food11" />
-          {/* <img src={`${food12}`} alt="food12" /> */}
+          <img src={`${food12}`} alt="food12" />
           
         </div>
       </div>
