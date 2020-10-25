@@ -196,11 +196,13 @@
 
 .tapas {
   overflow: hidden;
-  width: 350px;
   border-radius: 15px;
 }
+
 .tapas img {
-  width: 100%;
+  transform: scale(1.1);
+  width: 350px;
+  height: 350px;
   transform-origin: 50% 65%;
   transition: transform 5s, filter 3s ease-in-out;
 }
@@ -554,6 +556,9 @@ a {
     width: 60%;
   }
 
+  .tapas {
+
+  }
   .new-Pic-class img,
   .tapas img {
     width: 250px;
