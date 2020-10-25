@@ -366,12 +366,13 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .gallery-group img {
   margin: 30px;
-  width: calc( 80% / 3);
-  height: 50vh;
+  width: 400px;
+  height:  400px;
   border-radius: 10px;
   box-shadow: 0 30px 10px -20px #142c3a;
 }
@@ -504,10 +505,6 @@ a {
     padding-bottom: 20px;
     padding-top: 20px;
   }
-  /* Gallery */
-  .gallery-group img{
-    width:60%;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -542,11 +539,6 @@ a {
     font-size: 20px;
   }
 
-  /* Gallery */
-  .gallery-group img{
-    width: 70%;
-  }
-
   .footer {
     height: 100px;
     display: flex;
@@ -558,10 +550,6 @@ a {
 
   .about-info img {
     width: 60%;
-  }
-
-  .tapas {
-
   }
   .new-Pic-class img,
   .tapas img {
