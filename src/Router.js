@@ -13,7 +13,7 @@ import VisitUs from "./components/pages/VisitUs";
 
 function AppRouter() {
   return (
-    <div className="App">
+    <div>
       <Router>
         <Navbar />
         <Switch>
