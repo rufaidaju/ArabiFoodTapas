@@ -254,6 +254,7 @@
 
 .about-container h2 {
   font-size: 30px;
+  padding-bottom: 20px;
 }
 
 /* -Visit Us  */
@@ -351,14 +352,13 @@ a {
 }
 .gallery-group {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
 .gallery-group img {
-  margin: 30px;
+  margin: 20px;
   width: 250px;
   height: 250px;
   border-radius: 20px;
