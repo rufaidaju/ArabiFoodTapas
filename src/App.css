@@ -63,13 +63,15 @@
 }
 
 .button {
-  width: 60px;
+  width: 50px;
   height: 30px;
   position: fixed;
-  top: 50%;
+  bottom: 50px;
   z-index: 1;
   right: 0;
   font-size: 16px;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 /* MainPage */
@@ -369,7 +371,7 @@ a {
 
 .gallery-group img {
   margin: 30px;
-  width: calc( 80% / 3);
+  width: calc(80% / 3);
   height: 50vh;
   border-radius: 10px;
   box-shadow: 0 30px 10px -20px #142c3a;
@@ -504,8 +506,8 @@ a {
     padding-top: 20px;
   }
   /* Gallery */
-  .gallery-group img{
-    width:60%;
+  .gallery-group img {
+    width: 60%;
   }
 }
 
@@ -542,7 +544,7 @@ a {
   }
 
   /* Gallery */
-  .gallery-group img{
+  .gallery-group img {
     width: 70%;
   }
 
@@ -570,6 +572,11 @@ a {
   .visitUs p {
     text-align: center;
   }
+  .button {
+    bottom: 70px;
+    font-size: 12px;
+    font-weight: normal;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -595,5 +602,13 @@ a {
 
   .footer p {
     font-size: 14px;
+  }
+
+  .button {
+    width: 30px;
+    height: 20px;
+    bottom: 80px;
+    font-size: 10px;
+    font-weight: normal;
   }
 }
