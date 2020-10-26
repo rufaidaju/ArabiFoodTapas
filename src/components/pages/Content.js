@@ -26,7 +26,7 @@ function Content() {
 
       <div className="box-cont">
         <p>
-          Ud over lækre syriske tapas kan du også få himmelske Falafler, lækker
+          Ud over lækker syriske tapas kan du også få himmelske Falafler, lækker
           Sfeha, fantastisk Shish Kebab, fløjlsblød Hummus og en hel masse andre
           spændende syriske retter. Se vores <span><Link className="navbarItem" to="/gallery"> Galleri.</Link></span> 
         </p>
