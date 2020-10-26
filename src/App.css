@@ -614,4 +614,8 @@ a {
     font-size: 10px;
     font-weight: normal;
   }
+
+  .about-container p, .visitUs p, .box-cont p{
+    font-size: 16px;
+  }
 }
