@@ -26,7 +26,7 @@ function VisitUs() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <p>Ny Kronborgvej 2, 3000 Helsingør</p>
+                <span>Ny Kronborgvej 2, 3000 Helsingør</span>
               </a>
             </div>
 
@@ -39,7 +39,7 @@ function VisitUs() {
                   rel="noopener noreferrer"
                 >
                   {" "}
-                  <p>facebook.com/ArabiFoodTapas</p>{" "}
+                  <span>facebook.com/ArabiFoodTapas</span>{" "}
                 </a>
               </span>
             </div>
@@ -47,7 +47,7 @@ function VisitUs() {
             <div className="contact-info">
               <img src={`${email}`} alt="emailIcon" />
               <a href="mailto:reemmsh1223@gmail.com?subject=Inquiry about products">
-                <p>reemmsh1223@gmail.com</p>
+                <span>reemmsh1223@gmail.com</span>
               </a>
             </div>
           </div>
@@ -58,18 +58,18 @@ function VisitUs() {
             <div className="contact-info">
               <img src={`${mobile}`} alt="mobileIcon" />
 
-              <p>+45 81 71 60 64</p>
+              <span>+45 81 71 60 64</span>
             </div>
 
             <div className="contact-info">
               <img src={`${time}`} alt="timeIcon" />
 
-              <p> 11:00 - 20:00 </p>
+              <span> 11:00 - 20:00 </span>
             </div>
             <div className="contact-info">
               <img src={`${cvr}`} alt="cvrIcon" />
 
-              <p> 39447630</p>
+              <spanp> 39447630</spanp>
             </div>
           </div>
         </div>
