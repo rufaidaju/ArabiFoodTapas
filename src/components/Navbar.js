@@ -15,11 +15,6 @@ function NavigationBar() {
             </Link>
           </li>
           <li>
-            <Link className="navbarItem" to="/contact">
-              Besøg os
-            </Link>
-          </li>
-          <li>
             <Link className="navbarItem" to="/gallery">
               {" "}
               Galleri
