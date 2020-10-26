@@ -18,21 +18,34 @@ function Content() {
         </p>
       </div>
 
-      <div className="new-Pic-class">
-        <img src={`${food6}`}  alt="food6" />
-        <img src={`${food7}`}  alt="food7" />
-        <img src={`${food8}`}  alt="food8" />
+      <div className="images-content">
+        <div className="img-item">
+          <img src={`${food6}`} alt="food6" />
+        </div>
+        <div className="img-item">
+          <img src={`${food7}`} alt="food7" />
+        </div>
+        <div className="img-item">
+          <img src={`${food8}`} alt="food8" />
+        </div>
       </div>
 
       <div className="box-cont">
         <p>
           Ud over lækker syriske tapas kan du også få himmelske Falafler, lækker
           Sfeha, fantastisk Shish Kebab, fløjlsblød Hummus og en hel masse andre
-          spændende syriske retter. Se vores <span><Link className="navbarItem" to="/gallery"> Galleri.</Link></span> 
+          spændende syriske retter. Se vores{" "}
+          <span>
+            <Link className="navbarItem" to="/gallery">
+              {" "}
+              Galleri.
+            </Link>
+          </span>
         </p>
       </div>
-      <div className="tapas" >
-      <img src={`${tapas}`}  alt="tapas" />
+
+      <div className="tapas">
+        <img src={`${tapas}`} alt="tapas" />
       </div>
     </section>
   );
