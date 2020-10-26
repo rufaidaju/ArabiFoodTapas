@@ -4,7 +4,7 @@ function Footer() {
   return (
     <section className="footer">
       <div>
-        <p>
+        <span>
           <a
             href="https://www.hackyourfuture.dk/ "
             target="_blank"
@@ -23,11 +23,11 @@ function Footer() {
               Finklusiv.dk{" "}
             </a>
           </span>{" "}
-        </p>
+        </span>
       </div>
 
       <div>
-        <p>
+        <span>
           Designed and developed by{" "}
           <span>
             <a
@@ -50,7 +50,7 @@ function Footer() {
               Rufaida Jumaa{" "}
             </a>
           </span>
-        </p>
+        </span>
       </div>
     </section>
   );
