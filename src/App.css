@@ -235,6 +235,8 @@
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   line-height: 1.5em;
+  margin: 0 auto;
+  width: 70%;
 }
 
 /* - About- */
@@ -257,7 +259,7 @@
 .about-container p {
   margin: 10px;
   width: 80%;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5em;
   font-weight: normal;
   font-family: "Helvetica Neue";
@@ -265,12 +267,19 @@
 
 .about-container h3 {
   margin: 30px;
-  font-size: 20px;
+  font-size: 24px;
+  text-shadow:2px 2px #7fcdd0;
+  
 }
 
 .about-container h2 {
   font-size: 30px;
   padding-bottom: 20px;
+  text-shadow:2px 2px#7fcdd0;
+}
+.about-container img{
+  border-radius: 50%;
+  box-shadow: 0 4px 15px #142c3a
 }
 
 /* -Visit Us-  */
@@ -284,7 +293,9 @@
 }
 
 .visitUs h2 {
-  font-size: 30px;
+  font-size: 30px ;
+  text-shadow:2px 2px #7fcdd0;
+  padding-bottom: 20px; 
 }
 
 .visitUs p {
@@ -341,6 +352,7 @@ a {
 .resturant-img img {
   width: 100%;
   border-radius: 50%;
+  box-shadow: 0 4px 15px #142c3a
 }
 
 /* -Gallery- */
@@ -355,8 +367,10 @@ a {
   padding-bottom: 50px;
   background-color: white;
 }
-.gallery h2 {
+.gallery h2 { 
   font-size: 30px;
+  text-shadow:2px 2px #7fcdd0;
+  padding-bottom: 20px;
 }
 
 .gallery p {
@@ -599,6 +613,9 @@ a {
     bottom: 80px;
     font-size: 10px;
     font-weight: normal;
+  }
+  .about-container p, .visitUs p, .box-cont p{
+    font-size: 16px;
   }
   .gallery-group img {
     width: 270px;
