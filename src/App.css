@@ -612,4 +612,11 @@ a {
     width: 270px;
     height: 270px;
   }
+  .footer {
+    height: 60px;
+  }
+  .footer span{
+    font-size: 9px;
+    text-align: center;
+  }
 }
