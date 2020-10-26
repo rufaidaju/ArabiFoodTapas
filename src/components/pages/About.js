@@ -30,7 +30,7 @@ function About() {
 
         <img src={`${reem7}`} alt="reem7" />
       </div>
-      <h3>Vi glæder os til at lave mad til dig!</h3>
+      <h3>Kom forbi og besøg os. Vi glæder os til at lave lækker mad til dig!</h3>
     </section>
   );
 }
