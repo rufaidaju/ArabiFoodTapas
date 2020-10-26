@@ -158,12 +158,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
 }
 
 .footer p {
   padding: 5px;
-  font: 18px "lato", sans-serif;
+  font: 16px "lato", sans-serif;
+  text-align: center;
 }
 
 .footer a {
@@ -561,9 +561,9 @@ a {
     display: flex;
     padding: 10px;
   }
-  .footer p {
+  /* .footer p {
     text-align: center;
-  }
+  } */
 
   .about-info img {
     width: 60%;
@@ -582,6 +582,9 @@ a {
     font-size: 12px;
     font-weight: normal;
   }
+  .footer p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -597,6 +600,9 @@ a {
   .contact-info p {
     font-size: 16px;
   }
+  .footer p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -606,7 +612,7 @@ a {
   }
 
   .footer p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .button {
