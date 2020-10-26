@@ -160,9 +160,9 @@
   align-items: center;
 }
 
-.footer p {
+.footer span {
   padding: 5px;
-  font: 16px "lato", sans-serif;
+  font: 13px "lato", sans-serif;
   text-align: center;
 }
 
@@ -295,11 +295,6 @@
   font-size: 30px;
   text-shadow: 2px 2px #7fcdd0;
   padding-bottom: 20px;
-}
-
-.visitUs p {
-  margin-top: 10px;
-  font-size: 20px;
 }
 .contact-container {
   display: flex;
@@ -561,9 +556,6 @@ a {
     display: flex;
     padding: 10px;
   }
-  /* .footer p {
-    text-align: center;
-  } */
 
   .about-info img {
     width: 60%;
@@ -582,9 +574,6 @@ a {
     font-size: 12px;
     font-weight: normal;
   }
-  .footer p {
-    font-size: 14px;
-  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -600,9 +589,6 @@ a {
   .contact-info p {
     font-size: 16px;
   }
-  .footer p {
-    font-size: 14px;
-  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -610,11 +596,6 @@ a {
     font: 13px "lato", sans-serif;
     color: #275470;
   }
-
-  .footer p {
-    font-size: 13px;
-  }
-
   .button {
     width: 30px;
     height: 20px;
