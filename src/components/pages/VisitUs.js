@@ -12,7 +12,7 @@ function VisitUs() {
   return (
     <section className="visitUs">
       <h2>Besøg os</h2>
-      <p>Kom forbi og Besøg os. Vi glæder os til at lave mad til dig!</p>
+      <p>Kom forbi og besøg os. Vi glæder os til at lave mad til dig!</p>
 
       <Map />
 
