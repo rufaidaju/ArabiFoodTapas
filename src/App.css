@@ -268,18 +268,17 @@
 .about-container h3 {
   margin: 30px;
   font-size: 24px;
-  text-shadow:2px 2px #7fcdd0;
-  
+  text-shadow: 2px 2px #7fcdd0;
 }
 
 .about-container h2 {
   font-size: 30px;
   padding-bottom: 20px;
-  text-shadow:2px 2px#7fcdd0;
+  text-shadow: 2px 2px#7fcdd0;
 }
-.about-container img{
+.about-container img {
   border-radius: 50%;
-  box-shadow: 0 4px 15px #142c3a
+  box-shadow: 0 4px 15px #142c3a;
 }
 
 /* -Visit Us-  */
@@ -293,9 +292,9 @@
 }
 
 .visitUs h2 {
-  font-size: 30px ;
-  text-shadow:2px 2px #7fcdd0;
-  padding-bottom: 20px; 
+  font-size: 30px;
+  text-shadow: 2px 2px #7fcdd0;
+  padding-bottom: 20px;
 }
 
 .visitUs p {
@@ -352,7 +351,7 @@ a {
 .resturant-img img {
   width: 100%;
   border-radius: 50%;
-  box-shadow: 0 4px 15px #142c3a
+  box-shadow: 0 4px 15px #142c3a;
 }
 
 /* -Gallery- */
@@ -367,9 +366,9 @@ a {
   padding-bottom: 50px;
   background-color: white;
 }
-.gallery h2 { 
+.gallery h2 {
   font-size: 30px;
-  text-shadow:2px 2px #7fcdd0;
+  text-shadow: 2px 2px #7fcdd0;
   padding-bottom: 20px;
 }
 
@@ -387,7 +386,7 @@ a {
 .gallery-group img {
   margin: 30px;
   width: 400px;
-  height:  400px;
+  height: 400px;
   border-radius: 10px;
   box-shadow: 0 30px 10px -20px #142c3a;
 }
@@ -529,6 +528,9 @@ a {
     justify-content: space-between;
     align-items: center;
   }
+  .navbar {
+    height: 70px;
+  }
 
   .box-cont {
     text-align: center;
@@ -614,12 +616,13 @@ a {
     font-size: 10px;
     font-weight: normal;
   }
-  .about-container p, .visitUs p, .box-cont p{
+  .about-container p,
+  .visitUs p,
+  .box-cont p {
     font-size: 16px;
   }
   .gallery-group img {
     width: 270px;
-    height:  270px;
+    height: 270px;
   }
-
 }
