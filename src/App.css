@@ -83,7 +83,9 @@ You can override the global settings using the associated class/tag props
   opacity: 0.4;
   transition: opacity 0.4s;
   padding-bottom: 5px;
-}
+  /* transform: rotateZ(-90deg); */
+  }
+
 .button:hover {
   opacity: 0.8;
   transition: opacity 0.5s;
@@ -475,7 +477,6 @@ a {
     width: 250px;
   }
 
- 
   .about-container {
     display: flex;
     flex-direction: column;
@@ -532,7 +533,6 @@ a {
     width: 250px;
   }
 
- 
   .footer {
     height: 100px;
     display: flex;
@@ -543,7 +543,8 @@ a {
     width: 60%;
   }
 
-    .images-content img, .tapas img {
+  .images-content img,
+  .tapas img {
     width: 250px;
     height: 250px;
   }
@@ -567,7 +568,6 @@ a {
   .navbarItem {
     font: 15px "lato", sans-serif;
   }
-
 }
 
 @media only screen and (max-width: 480px) {

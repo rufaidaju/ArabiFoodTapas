@@ -6,7 +6,7 @@ function Button() {
       <button className="button">
         <span>
             <a href=""  rel="noopener noreferrer">
-            🢁 
+            ⬆
           </a>
         </span>
       </button>
