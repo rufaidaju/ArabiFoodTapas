@@ -84,6 +84,11 @@ You can override the global settings using the associated class/tag props
   transition: opacity 0.4s;
   padding-bottom: 5px;
 }
+
+.button p{
+  font-size:22px;
+}
+
 .button:hover {
   opacity: 0.8;
   transition: opacity 0.5s;
