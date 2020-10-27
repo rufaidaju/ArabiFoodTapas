@@ -85,9 +85,6 @@ You can override the global settings using the associated class/tag props
   padding-bottom: 5px;
 }
 
-.button p{
-  /* font-size:30px; */
-}
 
 .button:hover {
   opacity: 0.8;
@@ -584,8 +581,8 @@ a {
     font: 13px "lato", sans-serif;
   }
   .button {
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    height: 30px;
     bottom: 80px;
     font-size: 10px;
     font-weight: normal;
