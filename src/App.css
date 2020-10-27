@@ -1,7 +1,15 @@
+/* Global settings for uniforn display e.g. texts...
+You can override the global settings using the associated class/tag props
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+* p {
+  font-size: 18px; /*20px;*/
 }
 
 .App {
@@ -15,7 +23,7 @@
   justify-content: center;
   background-color: #fff;
   height: 100px;
-  border-bottom: 1px solid #CCD4D8;
+  border-bottom: 1px solid #ccd4d8;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -29,7 +37,7 @@
 }
 
 .navbar ul {
-  width: 550px;
+  width: 350px; /*550px;*/
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -63,15 +71,23 @@
 }
 
 .button {
-  width: 50px;
-  height: 30px;
+  width: 30px;
+  height: 40px;
   position: fixed;
   bottom: 50px;
   z-index: 1;
-  right: 0;
-  font-size: 16px;
-  border-radius: 5px;
+  right: 5px;
+  font-size: 18px;
   font-weight: bold;
+  border-radius: 50px; /*5px;*/
+  opacity: 0.4;
+  transition: opacity 0.4s;
+  padding-bottom: 5px;
+}
+.button:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s;
+  transition-delay: 0.3s;
 }
 
 /* MainPage */
@@ -231,8 +247,8 @@
 }
 
 .box-cont p {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+  /*font-size: 16px; */ /*20px;*/
+  /*font-family: "Times New Roman", Times, serif;*/
   text-align: center;
   line-height: 1.5em;
   margin: 0 auto;
@@ -257,12 +273,12 @@
 }
 
 .about-container p {
-  margin: 10px;
+  margin: 30px;
   width: 80%;
-  font-size: 20px;
   line-height: 1.5em;
-  font-weight: normal;
-  font-family: "Helvetica Neue";
+  /*font-size: 20px;*/
+  /*font-weight: normal;*/
+  /*font-family: "Helvetica Neue";*/
 }
 
 .about-container h3 {
@@ -277,6 +293,7 @@
   text-shadow: 2px 2px#7fcdd0;
 }
 .about-container img {
+  margin-bottom: 30px;
   border-radius: 50%;
   box-shadow: 0 4px 15px #142c3a;
 }
@@ -327,7 +344,7 @@
 }
 
 .contact-info p {
-  font-size: 30px;
+  /*font-size: 30px;*/
   padding-top: 10px;
 }
 
@@ -402,7 +419,7 @@ a {
   margin-bottom: 10px;
 }
 
-.menu-info {
+/*.menu-info {
   display: flex;
   justify-content: space-around;
 
@@ -418,10 +435,10 @@ a {
   font-weight: normal;
   text-align: center;
 }
-
+*/
 /* - Slider - */
 
-.header {
+/*.header {
   width: 100%;
   height: 80vh;
   color: White;
@@ -461,6 +478,7 @@ a {
   width: 100%;
   height: 100%;
 }
+*/
 
 /* -- map -- */
 
@@ -503,11 +521,11 @@ a {
 
   .about-container p {
     margin: 0 auto;
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.8em;
     font-weight: normal;
     text-align: center;
-    font-family: "Helvetica Neue";
+    /*font-family: "Helvetica Neue";*/
   }
   .about-text {
     order: 1;
@@ -615,7 +633,7 @@ a {
   .footer {
     height: 60px;
   }
-  .footer span{
+  .footer span {
     font-size: 9px;
     text-align: center;
   }
