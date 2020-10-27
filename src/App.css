@@ -51,7 +51,7 @@ You can override the global settings using the associated class/tag props
 
 .navbarItem:hover {
   transition: 1s;
-  color: red;
+  color: #f00;
   text-decoration: underline;
 }
 
@@ -101,8 +101,8 @@ You can override the global settings using the associated class/tag props
   background-image: url("./assets/images/main-page.jpg");
   background-repeat: no-repeat center center fixed;
   background-size: cover;
-  /* margin-bottom: 200px; */
 }
+
 .main-page::before {
   content: "";
   position: absolute;
@@ -165,7 +165,6 @@ You can override the global settings using the associated class/tag props
 }
 
 /* - Footer - */
-
 .footer {
   height: 80px;
   background-color: #275470;
@@ -215,9 +214,9 @@ You can override the global settings using the associated class/tag props
 }
 
 .tapas img {
-  transform: scale(1.1);
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
+
   transform-origin: 50% 65%;
   transition: transform 5s, filter 3s ease-in-out;
 }
@@ -226,23 +225,27 @@ You can override the global settings using the associated class/tag props
   transform: scale(1.2);
 }
 
-.new-Pic-class {
+.images-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
-.new-Pic-class img {
-  padding: 5px;
-  width: 350px;
-  height: 350px;
+.img-item {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.img-item img {
+  width: 250px;
+  height: 250px;
   transform-origin: 50% 65%;
   transition: transform 5s, filter 3s ease-in-out;
 }
 
-.new-Pic-class img:hover {
+.img-item:hover img {
   transform: scale(1.2);
 }
 
@@ -299,7 +302,6 @@ You can override the global settings using the associated class/tag props
 }
 
 /* -Visit Us-  */
-
 .visitUs {
   margin: 0 auto;
   padding-top: 50px;
@@ -347,6 +349,11 @@ You can override the global settings using the associated class/tag props
   /*font-size: 30px;*/
   padding-top: 10px;
 }
+.contact-info a:hover {
+  transition: 1s;
+  color: #0839a1;
+  text-decoration: underline;
+}
 
 a {
   text-decoration: none;
@@ -367,7 +374,6 @@ a {
 }
 
 /* -Gallery- */
-
 .gallery {
   margin: 0 auto;
   padding-top: 50px;
@@ -397,48 +403,14 @@ a {
 
 .gallery-group img {
   margin: 30px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 10px;
   box-shadow: 0 30px 10px -20px #142c3a;
 }
 
-/* - Menu - */
-
-.menuList {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.menuList img {
-  margin: 20px auto;
-}
-.menuList h2 {
-  margin-bottom: 10px;
-}
-
-/*.menu-info {
-  display: flex;
-  justify-content: space-around;
-
-  align-items: center;
-  margin: 0px 25px;
-}
-
-.menu-info h3 {
-  margin: 0px auto;
-  width: 80%;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: normal;
-  text-align: center;
-}
-*/
 /* - Slider - */
-
-/*.header {
+/* .header {
   width: 100%;
   height: 80vh;
   color: White;
@@ -477,11 +449,9 @@ a {
 .header img {
   width: 100%;
   height: 100%;
-}
-*/
+} */
 
 /* -- map -- */
-
 .map-container {
   margin-top: 25px;
   display: flex;
@@ -505,10 +475,7 @@ a {
     width: 250px;
   }
 
-  .contact-info p {
-    font-size: 15px;
-  }
-
+ 
   .about-container {
     display: flex;
     flex-direction: column;
@@ -565,10 +532,7 @@ a {
     width: 250px;
   }
 
-  .contact-info p {
-    font-size: 20px;
-  }
-
+ 
   .footer {
     height: 100px;
     display: flex;
@@ -578,8 +542,8 @@ a {
   .about-info img {
     width: 60%;
   }
-  .new-Pic-class img,
-  .tapas img {
+
+    .images-content img, .tapas img {
     width: 250px;
     height: 250px;
   }
@@ -587,6 +551,7 @@ a {
   .visitUs p {
     text-align: center;
   }
+
   .button {
     bottom: 70px;
     font-size: 12px;
@@ -601,18 +566,13 @@ a {
 
   .navbarItem {
     font: 15px "lato", sans-serif;
-    color: #275470;
   }
 
-  .contact-info p {
-    font-size: 16px;
-  }
 }
 
 @media only screen and (max-width: 480px) {
   .navbarItem {
     font: 13px "lato", sans-serif;
-    color: #275470;
   }
   .button {
     width: 30px;
