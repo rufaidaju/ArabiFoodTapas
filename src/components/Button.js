@@ -6,7 +6,7 @@ function Button() {
       <button className="button">
         <span>
             <a href=""  rel="noopener noreferrer">
-            OP
+            🢁 
           </a>
         </span>
       </button>
@@ -15,3 +15,4 @@ function Button() {
 }
 
 export default Button;
+/*OP, 🡅, 🢁 */
