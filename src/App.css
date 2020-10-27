@@ -71,8 +71,8 @@ You can override the global settings using the associated class/tag props
 }
 
 .button {
-  width: 30px;
-  height: 40px;
+  width: 40px;
+  height: 30px;
   position: fixed;
   bottom: 50px;
   z-index: 1;
@@ -83,7 +83,7 @@ You can override the global settings using the associated class/tag props
   opacity: 0.4;
   transition: opacity 0.4s;
   padding-bottom: 5px;
-  /* transform: rotateZ(-90deg); */
+  transform: rotateZ(-90deg);
   }
 
 .button:hover {
