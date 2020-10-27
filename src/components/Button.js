@@ -6,7 +6,7 @@ function Button() {
       <button className="button">
         <span>
             <a href=""  rel="noopener noreferrer">
-           <p> 	&#129073; </p>
+           <p>  &#8593;	 </p>
           </a>
         </span>
       </button>
