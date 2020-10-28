@@ -18,7 +18,7 @@ function AppRouter() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route  path="/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/about" component={About} />
           {/* <Route component={ErrorPage} /> */}
