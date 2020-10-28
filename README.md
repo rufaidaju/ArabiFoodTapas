@@ -1,5 +1,5 @@
 
 
-https://arabi-food-tapas.herokuapp.com/
+https://arabifoodtapas.herokuapp.com/
 
-https://arabi-food-tapas.netlify.app/
+https://arabifoodtapas.netlify.app/
