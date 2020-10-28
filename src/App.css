@@ -69,14 +69,17 @@ You can override the global settings using the associated class/tag props
   font-size: 18px;
   font-weight: bold;
   border-radius: 50px; /*5px;*/
-  opacity: 0.4;
+  opacity: 0.5;
   transition: opacity 0.4s;
   padding-bottom: 5px;
+  background-color: #a1b3c0;
+  outline: none;
 }
 .button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
   transition: opacity 0.5s;
   transition-delay: 0.3s;
+  border: none;
 }
 
 /* MainPage */
