@@ -59,17 +59,6 @@ You can override the global settings using the associated class/tag props
   width: 150px;
 }
 
-.burger div {
-  width: 25px;
-  height: 5px;
-  background-color: #275470;
-  margin: 5px;
-}
-
-.burger {
-  display: none;
-}
-
 .button {
   width: 30px;
   height: 40px;
@@ -84,8 +73,6 @@ You can override the global settings using the associated class/tag props
   transition: opacity 0.4s;
   padding-bottom: 5px;
 }
-
-
 .button:hover {
   opacity: 0.8;
   transition: opacity 0.5s;
@@ -477,7 +464,6 @@ a {
     width: 250px;
   }
 
- 
   .about-container {
     display: flex;
     flex-direction: column;
@@ -499,7 +485,7 @@ a {
   .about-container h3 {
     text-align: center;
   }
-  
+
   .about-text {
     order: 1;
     padding-bottom: 20px;
@@ -537,8 +523,6 @@ a {
   .resturant-img img {
     width: 250px;
   }
-
- 
   .footer {
     height: 100px;
     display: flex;
@@ -549,7 +533,8 @@ a {
     width: 60%;
   }
 
-    .images-content img, .tapas img {
+  .images-content img,
+  .tapas img {
     width: 250px;
     height: 250px;
   }
@@ -573,7 +558,6 @@ a {
   .navbarItem {
     font: 15px "lato", sans-serif;
   }
-
 }
 
 @media only screen and (max-width: 480px) {

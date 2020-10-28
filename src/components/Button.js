@@ -5,8 +5,8 @@ function Button() {
     <section>
       <button className="button">
         <span>
-            <a href=""  rel="noopener noreferrer">
-           <p>  &#8593;	 </p>
+          <a href="#navigation" rel="noopener noreferrer">
+            <p> &#8593; </p>
           </a>
         </span>
       </button>
