@@ -10,7 +10,7 @@ function NavigationBar() {
 
         <ul>
           <li>
-            <Link className="navbarItem" to="/">
+            <Link className="navbarItem" to="/home">
               Forside
             </Link>
           </li>
