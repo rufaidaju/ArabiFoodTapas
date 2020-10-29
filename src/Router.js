@@ -18,10 +18,11 @@ function AppRouter() {
         <ScrollToTop />
         <Navbar />
         <Switch>
-          <Route exact path="/" component={() => <Redirect from="/" to="/Home" />} />
+          
           <Route exact path="/home" component={Home} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/about" component={About} />
+          <Route exact path="/" component={() => <Redirect from="/" to="/Home" />} />
           {/* <Route component={ErrorPage} /> */}
         </Switch>
       </Router>
