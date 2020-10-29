@@ -112,12 +112,12 @@ You can override the global settings using the associated class/tag props
 .resturant-name h1 {
   margin: 6px;
   color: white;
-  font-size: 3em;
+  font-size: 45px;
   position: relative;
 }
 .resturant-name p {
   margin: 1.2em;
-  font-size: 2.5em;
+  font-size: 35px;
   font-weight: bold;
   color: white;
 }
@@ -165,6 +165,7 @@ You can override the global settings using the associated class/tag props
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer span {
@@ -470,11 +471,15 @@ a {
   .navbar ul {
     width: 450px;
   }
-
+  .resturant-name h1 {
+    font-size: 40px;
+  }
+  .resturant-name p {
+    font-size: 30px;
+  }
   .resturant-img img {
     width: 250px;
   }
-
   .about-container {
     display: flex;
     flex-direction: column;
@@ -585,6 +590,12 @@ a {
     font-size: 10px;
     font-weight: normal;
   }
+  .resturant-name h1 {
+    font-size: 30px;
+  }
+  .resturant-name p {
+    font-size: 20px;
+  }
   .about-container p,
   .visitUs p,
   .box-cont p {
@@ -594,9 +605,9 @@ a {
     width: 270px;
     height: 270px;
   }
-  .footer {
+  /* .footer {  
     height: 60px;
-  }
+  } */
   .footer span {
     font-size: 9px;
     text-align: center;
