@@ -1,7 +1,15 @@
+/* Global settings for uniforn display e.g. texts...
+You can override the global settings using the associated class/tag props
+*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+* p {
+  font-size: 18px; /*20px;*/
 }
 
 .App {
@@ -15,7 +23,7 @@
   justify-content: center;
   background-color: #fff;
   height: 100px;
-  border-bottom: 1px solid #CCD4D8;
+  border-bottom: 1px solid #ccd4d8;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -29,7 +37,7 @@
 }
 
 .navbar ul {
-  width: 550px;
+  width: 350px; /*550px;*/
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -43,7 +51,7 @@
 
 .navbarItem:hover {
   transition: 1s;
-  color: red;
+  color: #f00;
   text-decoration: underline;
 }
 
@@ -51,27 +59,27 @@
   width: 150px;
 }
 
-.burger div {
-  width: 25px;
-  height: 5px;
-  background-color: #275470;
-  margin: 5px;
-}
-
-.burger {
-  display: none;
-}
-
 .button {
-  width: 50px;
-  height: 30px;
+  width: 30px;
+  height: 40px;
   position: fixed;
   bottom: 50px;
   z-index: 1;
-  right: 0;
-  font-size: 16px;
-  border-radius: 5px;
+  right: 5px;
+  font-size: 18px;
   font-weight: bold;
+  border-radius: 50px; /*5px;*/
+  opacity: 0.5;
+  transition: opacity 0.4s;
+  padding-bottom: 5px;
+  background-color: #a1b3c0;
+  outline: none;
+}
+.button:hover {
+  opacity: 0.9;
+  transition: opacity 0.5s;
+  transition-delay: 0.3s;
+  border: none;
 }
 
 /* MainPage */
@@ -85,8 +93,8 @@
   background-image: url("./assets/images/main-page.jpg");
   background-repeat: no-repeat center center fixed;
   background-size: cover;
-  /* margin-bottom: 200px; */
 }
+
 .main-page::before {
   content: "";
   position: absolute;
@@ -149,7 +157,6 @@
 }
 
 /* - Footer - */
-
 .footer {
   height: 80px;
   background-color: #275470;
@@ -199,9 +206,9 @@
 }
 
 .tapas img {
-  transform: scale(1.1);
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
+
   transform-origin: 50% 65%;
   transition: transform 5s, filter 3s ease-in-out;
 }
@@ -210,29 +217,33 @@
   transform: scale(1.2);
 }
 
-.new-Pic-class {
+.images-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
-.new-Pic-class img {
-  padding: 5px;
-  width: 350px;
-  height: 350px;
+.img-item {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.img-item img {
+  width: 250px;
+  height: 250px;
   transform-origin: 50% 65%;
   transition: transform 5s, filter 3s ease-in-out;
 }
 
-.new-Pic-class img:hover {
+.img-item:hover img {
   transform: scale(1.2);
 }
 
 .box-cont p {
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+  /*font-size: 16px; */ /*20px;*/
+  /*font-family: "Times New Roman", Times, serif;*/
   text-align: center;
   line-height: 1.5em;
   margin: 0 auto;
@@ -257,12 +268,12 @@
 }
 
 .about-container p {
-  margin: 10px;
+  margin: 30px;
   width: 80%;
-  font-size: 20px;
   line-height: 1.5em;
-  font-weight: normal;
-  font-family: "Helvetica Neue";
+  /*font-size: 20px;*/
+  /*font-weight: normal;*/
+  /*font-family: "Helvetica Neue";*/
 }
 
 .about-container h3 {
@@ -277,12 +288,12 @@
   text-shadow: 2px 2px#7fcdd0;
 }
 .about-container img {
+  margin-bottom: 30px;
   border-radius: 50%;
   box-shadow: 0 4px 15px #142c3a;
 }
 
 /* -Visit Us-  */
-
 .visitUs {
   margin: 0 auto;
   padding-top: 50px;
@@ -327,8 +338,13 @@
 }
 
 .contact-info p {
-  font-size: 30px;
+  /*font-size: 30px;*/
   padding-top: 10px;
+}
+.contact-info a:hover {
+  transition: 1s;
+  color: #0839a1;
+  text-decoration: underline;
 }
 
 a {
@@ -350,7 +366,6 @@ a {
 }
 
 /* -Gallery- */
-
 .gallery {
   margin: 0 auto;
   padding-top: 50px;
@@ -380,48 +395,14 @@ a {
 
 .gallery-group img {
   margin: 30px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 10px;
   box-shadow: 0 30px 10px -20px #142c3a;
 }
 
-/* - Menu - */
-
-.menuList {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.menuList img {
-  margin: 20px auto;
-}
-.menuList h2 {
-  margin-bottom: 10px;
-}
-
-.menu-info {
-  display: flex;
-  justify-content: space-around;
-
-  align-items: center;
-  margin: 0px 25px;
-}
-
-.menu-info h3 {
-  margin: 0px auto;
-  width: 80%;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: normal;
-  text-align: center;
-}
-
 /* - Slider - */
-
-.header {
+/* .header {
   width: 100%;
   height: 80vh;
   color: White;
@@ -460,10 +441,9 @@ a {
 .header img {
   width: 100%;
   height: 100%;
-}
+} */
 
 /* -- map -- */
-
 .map-container {
   margin-top: 25px;
   display: flex;
@@ -495,10 +475,6 @@ a {
     width: 250px;
   }
 
-  .contact-info p {
-    font-size: 15px;
-  }
-
   .about-container {
     display: flex;
     flex-direction: column;
@@ -511,12 +487,16 @@ a {
 
   .about-container p {
     margin: 0 auto;
-    font-size: 20px;
+    /*font-size: 20px;*/
     line-height: 1.8em;
     font-weight: normal;
     text-align: center;
-    font-family: "Helvetica Neue";
+    /*font-family: "Helvetica Neue";*/
   }
+  .about-container h3 {
+    text-align: center;
+  }
+
   .about-text {
     order: 1;
     padding-bottom: 20px;
@@ -554,11 +534,6 @@ a {
   .resturant-img img {
     width: 250px;
   }
-
-  .contact-info p {
-    font-size: 20px;
-  }
-
   .footer {
     height: 100px;
     display: flex;
@@ -568,7 +543,8 @@ a {
   .about-info img {
     width: 60%;
   }
-  .new-Pic-class img,
+
+  .images-content img,
   .tapas img {
     width: 250px;
     height: 250px;
@@ -577,6 +553,7 @@ a {
   .visitUs p {
     text-align: center;
   }
+
   .button {
     bottom: 70px;
     font-size: 12px;
@@ -591,11 +568,6 @@ a {
 
   .navbarItem {
     font: 15px "lato", sans-serif;
-    color: #275470;
-  }
-
-  .contact-info p {
-    font-size: 16px;
   }
   .about-container h3{
     font-size: 20px;
@@ -605,11 +577,10 @@ a {
 @media only screen and (max-width: 480px) {
   .navbarItem {
     font: 13px "lato", sans-serif;
-    color: #275470;
   }
   .button {
-    width: 30px;
-    height: 20px;
+    width: 20px;
+    height: 30px;
     bottom: 80px;
     font-size: 10px;
     font-weight: normal;
@@ -626,7 +597,7 @@ a {
   .footer {
     height: 60px;
   }
-  .footer span{
+  .footer span {
     font-size: 9px;
     text-align: center;
   }

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Button from "./components/Button";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Home from "./components/pages/Home";
 import Gallery from "./components/pages/Gallery";
@@ -14,9 +15,11 @@ function AppRouter() {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route path="/gallery" component={Gallery} />
           <Route path="/about" component={About} />
           {/* <Route component={ErrorPage} /> */}

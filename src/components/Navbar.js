@@ -4,13 +4,13 @@ import logo from "../assets/images/logo.png";
 
 function NavigationBar() {
   return (
-    <section className="navbar">
+    <section id="navigation" className="navbar">
       <div className="navbar-container">
         <img src={`${logo}`} alt="logo" />
 
         <ul>
           <li>
-            <Link className="navbarItem" to="/">
+            <Link className="navbarItem" to="/home">
               Forside
             </Link>
           </li>
