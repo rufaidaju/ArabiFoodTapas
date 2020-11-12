@@ -31,15 +31,14 @@ function VisitUs() {
             </div>
 
             <div className="contact-info">
-              <img src={`${facebook}`} alt="facebookIcon" />              
-                <a
-                  href="https://www.facebook.com/ArabiFoodTapas "
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >                  
-                  <p>facebook.com/ArabiFoodTapas</p>
-                </a>
-              
+              <img src={`${facebook}`} alt="facebookIcon" />
+              <a
+                href="https://www.facebook.com/ArabiFoodTapas "
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>facebook.com/ArabiFoodTapas</p>
+              </a>
             </div>
 
             <div className="contact-info">

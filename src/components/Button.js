@@ -15,4 +15,3 @@ function Button() {
 }
 
 export default Button;
-/*OP, 🡅, 🢁 */
