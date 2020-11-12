@@ -1,17 +1,12 @@
-/* Global settings for uniforn display e.g. texts...
-You can override the global settings using the associated class/tag props
-*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
 * p {
-  font-size: 18px; /*20px;*/
+  font-size: 18px;
 }
-
 .App {
   height: 100vh;
   position: relative;
@@ -28,33 +23,28 @@ You can override the global settings using the associated class/tag props
   top: 0;
   z-index: 1;
 }
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 95vw;
 }
-
 .navbar ul {
-  width: 350px; /*550px;*/
+  width: 350px;
   display: flex;
   justify-content: space-around;
   list-style: none;
 }
-
 .navbarItem {
   font: 18px "lato", sans-serif;
   text-decoration: none;
   color: #275470;
 }
-
 .navbarItem:hover {
   transition: 1s;
   color: #f00;
   text-decoration: underline;
 }
-
 .navbar-container img {
   width: 150px;
 }
@@ -68,7 +58,7 @@ You can override the global settings using the associated class/tag props
   right: 5px;
   font-size: 18px;
   font-weight: bold;
-  border-radius: 50px; /*5px;*/
+  border-radius: 50px;
   opacity: 0.5;
   transition: opacity 0.4s;
   padding-bottom: 5px;
@@ -81,6 +71,7 @@ You can override the global settings using the associated class/tag props
   transition-delay: 0.3s;
   border: none;
 }
+/* End Navbar */
 
 /* MainPage */
 .main-page {
@@ -94,7 +85,6 @@ You can override the global settings using the associated class/tag props
   background-repeat: no-repeat center center fixed;
   background-size: cover;
 }
-
 .main-page::before {
   content: "";
   position: absolute;
@@ -156,7 +146,212 @@ You can override the global settings using the associated class/tag props
   animation-delay: 3s;
 }
 
-/* - Footer - */
+/* - Content  */
+.content-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-cont {
+  margin: 35px 40px;
+}
+.box-cont img {
+  width: 350px;
+}
+.tapas {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.tapas img {
+  width: 250px;
+  height: 250px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+.tapas:hover img {
+  transform: scale(1.2);
+}
+.images-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.img-item {
+  margin: 10px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.img-item img {
+  width: 250px;
+  height: 250px;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+}
+.img-item:hover img {
+  transform: scale(1.2);
+}
+.box-cont p {
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0 auto;
+  width: 70%;
+}
+/* End Content */
+
+/* Visit Us */
+.visitUs {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.visitUs h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px #7fcdd0;
+  padding-bottom: 20px;
+}
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90vw;
+  margin: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact-info {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-info img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
+.contact-info p {
+  padding-top: 10px;
+}
+.contact-info a:hover {
+  transition: 1s;
+  color: #0839a1;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.resturant-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.resturant-img img {
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px #142c3a;
+}
+/* End Visit us */
+
+/* -- Map -- */
+.map-container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+}
+.map {
+  border: none;
+  margin: 5px;
+}
+/* End Map */
+
+/* About */
+.about-container {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90vw;
+}
+.about-container p {
+  margin: 30px;
+  width: 80%;
+  line-height: 1.5em;
+}
+.about-container h3 {
+  margin: 30px;
+  font-size: 24px;
+  text-shadow: 2px 2px #7fcdd0;
+}
+.about-container h2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px#7fcdd0;
+}
+.about-container img {
+  margin-bottom: 30px;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px #142c3a;
+}
+/* End About */
+
+/* Gallery */
+.gallery {
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  background-color: white;
+}
+.gallery h2 {
+  font-size: 30px;
+  text-shadow: 2px 2px #7fcdd0;
+  padding-bottom: 20px;
+}
+.gallery p {
+  width: 70%;
+  margin: 20px auto;
+}
+.gallery-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.gallery-group img {
+  margin: 30px;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 30px 10px -20px #142c3a;
+}
+/* End Gallery */
+
+/* Footer */
 .footer {
   height: 80px;
   background-color: #275470;
@@ -183,289 +378,16 @@ You can override the global settings using the associated class/tag props
   text-decoration: none;
   color: #ff0;
 }
-
-/* - Content  */
-.content-container {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.box-cont {
-  margin: 35px 40px;
-}
-
-.box-cont img {
-  width: 350px;
-}
-
-.tapas {
-  overflow: hidden;
-  border-radius: 15px;
-}
-
-.tapas img {
-  width: 250px;
-  height: 250px;
-
-  transform-origin: 50% 65%;
-  transition: transform 5s, filter 3s ease-in-out;
-}
-
-.tapas:hover img {
-  transform: scale(1.2);
-}
-
-.images-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.img-item {
-  margin: 10px;
-  overflow: hidden;
-  border-radius: 15px;
-}
-
-.img-item img {
-  width: 250px;
-  height: 250px;
-  transform-origin: 50% 65%;
-  transition: transform 5s, filter 3s ease-in-out;
-}
-
-.img-item:hover img {
-  transform: scale(1.2);
-}
-
-.box-cont p {
-  /*font-size: 16px; */ /*20px;*/
-  /*font-family: "Times New Roman", Times, serif;*/
-  text-align: center;
-  line-height: 1.5em;
-  margin: 0 auto;
-  width: 70%;
-}
-
-/* - About- */
-.about-container {
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
-
-.about-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 90vw;
-}
-
-.about-container p {
-  margin: 30px;
-  width: 80%;
-  line-height: 1.5em;
-  /*font-size: 20px;*/
-  /*font-weight: normal;*/
-  /*font-family: "Helvetica Neue";*/
-}
-
-.about-container h3 {
-  margin: 30px;
-  font-size: 24px;
-  text-shadow: 2px 2px #7fcdd0;
-}
-
-.about-container h2 {
-  font-size: 30px;
-  padding-bottom: 20px;
-  text-shadow: 2px 2px#7fcdd0;
-}
-.about-container img {
-  margin-bottom: 30px;
-  border-radius: 50%;
-  box-shadow: 0 4px 15px #142c3a;
-}
-
-/* -Visit Us-  */
-.visitUs {
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.visitUs h2 {
-  font-size: 30px;
-  text-shadow: 2px 2px #7fcdd0;
-  padding-bottom: 20px;
-}
-.contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90vw;
-  margin: 30px;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.contact-info {
-  display: flex;
-  margin: 10px;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.contact-info img {
-  width: 40px;
-  height: 40px;
-  margin-right: 15px;
-}
-
-.contact-info p {
-  /*font-size: 30px;*/
-  padding-top: 10px;
-}
-.contact-info a:hover {
-  transition: 1s;
-  color: #0839a1;
-  text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-.resturant-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-}
-
-.resturant-img img {
-  width: 100%;
-  border-radius: 50%;
-  box-shadow: 0 4px 15px #142c3a;
-}
-
-/* -Gallery- */
-.gallery {
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
-  background-color: white;
-}
-.gallery h2 {
-  font-size: 30px;
-  text-shadow: 2px 2px #7fcdd0;
-  padding-bottom: 20px;
-}
-
-.gallery p {
-  width: 70%;
-  margin: 20px auto;
-}
-.gallery-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.gallery-group img {
-  margin: 30px;
-  width: 350px;
-  height: 350px;
-  border-radius: 10px;
-  box-shadow: 0 30px 10px -20px #142c3a;
-}
-
-/* - Slider - */
-/* .header {
-  width: 100%;
-  height: 80vh;
-  color: White;
-  font-size: 20px;
-  position: relative;
-}
-
-.text-container {
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.slider-container {
-  position: relative;
-  top: 0;
-}
-
-.header h1 {
-  color: rgb(255, 255, 255);
-  font-size: 60px;
-  font-family: Monospace;
-  text-align: center;
-}
-
-.header h3 {
-  color: rgb(247, 72, 3);
-  font-size: 42px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-
-.header img {
-  width: 100%;
-  height: 100%;
-} */
-
-/* -- map -- */
-.map-container {
-  margin-top: 25px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 450px;
-}
-.map {
-  border: none;
-  margin: 5px;
-}
+/* End Footer */
 
 /* -- responsive design -- */
 @media only screen and (min-width: 992px) {
-  .about-info{
-    margin-top:50px;
+  .about-info {
+    margin-top: 50px;
   }
-  .about-container h3{
+  .about-container h3 {
     margin: 75px;
   }
-
 }
 @media only screen and (max-width: 992px) {
   .navbar ul {
@@ -485,18 +407,14 @@ a {
     flex-direction: column;
     align-items: center;
   }
-
   .about-info {
     flex-direction: column;
   }
-
   .about-container p {
     margin: 0 auto;
-    /*font-size: 20px;*/
     line-height: 1.8em;
     font-weight: normal;
     text-align: center;
-    /*font-family: "Helvetica Neue";*/
   }
   .about-container h3 {
     text-align: center;
@@ -519,23 +437,19 @@ a {
   .navbar {
     height: 70px;
   }
-
   .box-cont {
     text-align: center;
   }
-
   .box-cont img {
     width: 300px;
     order: 2;
   }
-
   .navbar-container img {
     width: 100px;
   }
   .cont {
     margin: 10px;
   }
-
   .resturant-img img {
     width: 250px;
   }
@@ -544,21 +458,17 @@ a {
     display: flex;
     padding: 10px;
   }
-
   .about-info img {
     width: 60%;
   }
-
   .images-content img,
   .tapas img {
     width: 250px;
     height: 250px;
   }
-
   .visitUs p {
     text-align: center;
   }
-
   .button {
     bottom: 70px;
     font-size: 12px;
@@ -570,11 +480,10 @@ a {
   .navbar ul {
     width: 350px;
   }
-
   .navbarItem {
     font: 15px "lato", sans-serif;
   }
-  .about-container h3{
+  .about-container h3 {
     font-size: 20px;
   }
 }
@@ -605,9 +514,6 @@ a {
     width: 270px;
     height: 270px;
   }
-  /* .footer {  
-    height: 60px;
-  } */
   .footer span {
     font-size: 9px;
     text-align: center;
